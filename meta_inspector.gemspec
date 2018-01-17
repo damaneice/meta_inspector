@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
 
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {spec}/*`.split("\n")
-  gem.name          = "metainspector"
+  gem.name          = "meta_inspector"
   gem.require_paths = ["lib"]
   gem.version       = MetaInspector::VERSION
 
